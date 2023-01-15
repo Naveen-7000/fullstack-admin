@@ -2,6 +2,8 @@
 
 This is a FullStack Admin Dashboard(Portal) Web-App built using Reactjs, nodejs,expressjs,monogodb.
 
+BIG NOTE: Site Loading may be take more time as it is deployed in free version of render.com so please keep this in mind.
+
 Site is Deployed on : https://admin-frontend-g6q1.onrender.com
 
 
