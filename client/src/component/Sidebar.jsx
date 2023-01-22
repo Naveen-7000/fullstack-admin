@@ -24,7 +24,6 @@ import {
   TodayOutlined,
   CalendarMonthOutlined,
   AdminPanelSettingsOutlined,
-  TrendingDownOutlined,
   TrendingUpOutlined,
   PieChartOutlined,
   HomeOutlined,
@@ -105,7 +104,6 @@ const Sidebar = ({
   const [active, setActive] = useState("");
   const navigate = useNavigate();
   const theme = useTheme();
-  const isDesktop = useMediaQuery("(min-width: 992px)");
 
   useEffect(() => {
     setActive(pathname.substring(1));
