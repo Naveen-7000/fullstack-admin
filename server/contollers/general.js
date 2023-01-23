@@ -24,7 +24,7 @@ export const getDashboardStats = async (req, res) => {
   
       /* Recent Transactions */
       const transactions = await Transaction.find()
-        .limit(50)
+        .limit(10)
         .sort({ createdOn: -1 });
   
       /* Overall Stats */
